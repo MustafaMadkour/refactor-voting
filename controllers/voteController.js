@@ -1,4 +1,4 @@
-const Vote = require('./../models/reviewModel');
+const Vote = require('./../models/voteModel');
 // const catchAsync = require('./../utils/catchAsync');
 
 exports.setImageUserIds = (req, res, next) => {

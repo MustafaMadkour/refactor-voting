@@ -25,9 +25,9 @@ const resourcesSchema = new mongoose.Schema({
 });
 
 // Virtual populate
-tourSchema.virtual('votes', {
+imageSchema.virtual('votes', {
   ref: 'Vote',
-  foreignField: 'name',
+  foreignField: 'vote',
   localField: '_id'
 });
 
